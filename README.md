@@ -4,7 +4,7 @@ This repository contains code to replicate the experimental results from "Estima
 
 ### Folders 
 
-1. `data` folder includes the experimental data from Ferraro & Price (2013)
+1. `data` folder includes the experimental data from [Ferraro & Price (2013)](https://direct.mit.edu/rest/article-abstract/95/1/64/58053/Using-Nonpecuniary-Strategies-to-Influence)
 
 2. `experiment` folder contains all R files
 
