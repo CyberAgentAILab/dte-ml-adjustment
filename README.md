@@ -31,6 +31,4 @@ This repository contains code to replicate the experimental results from "Estima
 ### R version and attached packages
 - R version 4.3.1
 
-- `RColorBrewer_1.1-3` `ggpubr_0.6.0`       `fastglm_0.0.3`      `bigmemory_4.6.1`    `xgboost_1.7.5.1`    `foreign_0.8-84`     `ggplot2_3.4.3`     
-`dplyr_1.1.2`  `doParallel_1.0.17`    `glmnet_4.1-8`         `Matrix_1.6-1.1`       `doMC_1.3.8`           `iterators_1.0.14`     `foreach_1.5.2`        `grf_2.3.1`           
-`randomForest_4.7-1.1` `gridExtra_2.3`        `tidyr_1.3.0` 
+- `RColorBrewer_1.1-3` `ggpubr_0.6.0`       `fastglm_0.0.3`      `bigmemory_4.6.1`    `xgboost_1.7.5.1`    `foreign_0.8-84`     `ggplot2_3.4.3` `dplyr_1.1.2`  `doParallel_1.0.17`    `glmnet_4.1-8`         `Matrix_1.6-1.1`       `doMC_1.3.8`           `iterators_1.0.14`     `foreach_1.5.2`        `grf_2.3.1` `randomForest_4.7-1.1` `gridExtra_2.3`        `tidyr_1.3.0` 
