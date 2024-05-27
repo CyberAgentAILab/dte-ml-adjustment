@@ -27,10 +27,23 @@ cb_colors = brewer.pal(n = 8, name = "Dark2") # discrete colorblind palette
 ##------------------------------------------------------------------------------
 df = read.csv('./data/data_ferraroprice.csv') %>% 
   na.omit() %>%
-  rename(D = W) %>% 
   filter(D==3 | D==4) %>%
   mutate( D = as.factor( 1 * (D==3) )) %>%    ## treatment effect dummy
   data.frame()
+
+# # For analysis of T1 vs Control use the following code instead
+# df = read.csv('./data/data_ferraroprice.csv') %>% 
+#   na.omit() %>%
+#   filter(D==1 | D==4) %>%
+#   mutate( D = as.factor( 1 * (D==1) )) %>%    ## treatment effect dummy
+#   data.frame()
+
+# # For analysis of T2 vs Control use the following code instead
+# df = read.csv('./data/data_ferraroprice.csv') %>% 
+#   na.omit() %>%
+#   filter(D==2 | D==4) %>%
+#   mutate( D = as.factor( 1 * (D==2) )) %>%    ## treatment effect dummy
+#   data.frame()
 
 ## select variables 
 vec.y = as.numeric( as.matrix(df$Y) )
