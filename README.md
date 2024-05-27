@@ -4,7 +4,7 @@ This repository contains code to replicate the experimental results from "Estima
 
 ### Folders 
 
-1. `data` folder includes files to create dataset used for empirical application from [Ferraro & Price (2013)](https://direct.mit.edu/rest/article-abstract/95/1/64/58053/Using-Nonpecuniary-Strategies-to-Influence)
+1. `data` folder includes files to create dataset used for empirical application from [Ferraro & Price (2013)](https://direct.mit.edu/rest/article-abstract/95/1/64/58053/Using-Nonpecuniary-Strategies-to-Influence). Download original data from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN1/22633&version=1.1 and save `090113_TotWatDat_cor_merge_Price.dta` file in data folder.
 
 2. `experiment` folder contains all R files used for analysis
 
