@@ -14,7 +14,7 @@ This repository contains code to replicate the experimental results from "Estima
 
 2. `run_simulation.R` includes code to run the Monte Carlo simulations and saves results as .rds files
 
-3. `compute_stats.R` includes code to calculate measures (e.g. bias, RMSE) from the saved simulation results (.rds files) and saves them as .csv files
+3. `compute_stats.R` includes code to calculate evaluation metrics (e.g. bias, RMSE) from the saved simulation results (.rds files) and saves them as .csv files
 
 4. `plot_figures.R` includes code to load the .csv files and plot figures for the simulation study
 
