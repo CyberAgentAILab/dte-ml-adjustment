@@ -116,7 +116,7 @@ for (dgp_seq in 1:10){
       mean( (df.true$y[which(df.true$d==0)] < v.loc) ) 
     
   }
-  saveRDS(dte.true, file=paste0("./result/", "dgp_seq", dgp_number, "_dte.true", ".rds"))
+  saveRDS(dte.true, file=paste0("../result/", "dgp_seq", dgp_number, "_dte.true", ".rds"))
   
   n = 1000  ## sample size 
   # F-fold cross-fitting setup
