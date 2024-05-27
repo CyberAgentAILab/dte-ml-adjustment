@@ -55,7 +55,7 @@ for(j in 1: n.loc ){
       
 }
 # Save true DTE
-saveRDS(dte.true, file=paste0("./result/dte.true.rds"))
+saveRDS(dte.true, file=paste0("../result/dte.true.rds"))
 
 ##------------------------------------------------------------------------------
 ## Simulation setup
@@ -67,7 +67,7 @@ F = 5
 # Sample sizes
 vec.n    = c(500, 1000, 5000)
 # Treatment assignment probability
-vec.rho  = 0.5
+rho  = 0.5
 # Gap length for PTE
 h.pte   = 1  
 
